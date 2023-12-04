@@ -10,3 +10,6 @@ def home (request):
 
 def section1 (request):
     return HttpResponse ("Welcome to Section 1")
+
+def hello(request):
+    return HttpResponse("HI")
